@@ -15,7 +15,7 @@ class Args:
 with open("rest_countries.json") as f:
     countries = [c['id'] for c in json.load(f)['results']]
 
-countries = countries[-100:]
+#countries = countries[-100:]
 
 # correlation matrix
 for r in countries:
